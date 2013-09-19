@@ -1,0 +1,24 @@
+{{extend 'layout.html'}}
+<h1>{{=name}}</h1>
+{{if len(comment):}}
+<br/>
+	<h2>Comments</h2>
+	{{for post in comment:}}		
+	{{if post.created_by:}}
+			<p>{{=db.auth_user[post.created_by].first_name}} says <i>{{=post.comments}}</i></p>
+	{{else:}}
+			<p><b>{{=post.email}}</b> says<i>{{=post.comments}}</i></p>
+	{{pass}}
+	{{pass}}
+{{else:}}
+	<h2>No comments posted yet</h2>
+{{pass}}
+{{if flag!=2:}}
+	<h2>Post a comment</h2>
+	{{=form}}
+{{if ln!=-1:}}
+<form action="{{=URL('downm',args=(ln,temp))}}">
+	<input type="submit" name="download" value="download"/>
+</form>
+{{pass}}
+{{pass}}

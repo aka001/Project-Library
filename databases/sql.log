@@ -1,0 +1,193 @@
+timestamp: 2013-03-23T18:23:23.343948
+CREATE TABLE auth_user(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    first_name CHAR(128),
+    last_name CHAR(128),
+    email CHAR(512),
+    password CHAR(512),
+    registration_key CHAR(512),
+    reset_password_key CHAR(512),
+    registration_id CHAR(512)
+);
+success!
+timestamp: 2013-03-23T18:23:23.597360
+CREATE TABLE auth_group(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    role CHAR(512),
+    description TEXT
+);
+success!
+timestamp: 2013-03-23T18:23:23.832319
+CREATE TABLE auth_membership(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER REFERENCES auth_user (id) ON DELETE CASCADE,
+    group_id INTEGER REFERENCES auth_group (id) ON DELETE CASCADE
+);
+success!
+timestamp: 2013-03-23T18:23:24.076121
+CREATE TABLE auth_permission(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    group_id INTEGER REFERENCES auth_group (id) ON DELETE CASCADE,
+    name CHAR(512),
+    table_name CHAR(512),
+    record_id INTEGER
+);
+success!
+timestamp: 2013-03-23T18:23:24.322786
+CREATE TABLE auth_event(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    time_stamp TIMESTAMP,
+    client_ip CHAR(512),
+    user_id INTEGER REFERENCES auth_user (id) ON DELETE CASCADE,
+    origin CHAR(512),
+    description TEXT
+);
+success!
+timestamp: 2013-03-23T18:23:24.578540
+CREATE TABLE auth_cas(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER REFERENCES auth_user (id) ON DELETE CASCADE,
+    created_on TIMESTAMP,
+    service CHAR(512),
+    ticket CHAR(512),
+    renew CHAR(1)
+);
+success!
+timestamp: 2013-03-23T18:24:26.939782
+CREATE TABLE sign_up(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    username CHAR(128) NOT NULL UNIQUE,
+    password CHAR(512),
+    name CHAR(512) NOT NULL,
+    age INTEGER,
+    gender CHAR(512),
+    address TEXT,
+    phone CHAR(512),
+    photo CHAR(512),
+    date1 TIMESTAMP
+);
+success!
+timestamp: 2013-03-23T18:32:13.555563
+ALTER TABLE sign_up ADD email CHAR(512);
+timestamp: 2013-03-23T18:44:01.337539
+CREATE TABLE project(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Name CHAR(512),
+    category CHAR(32768),
+    project_id INTEGER REFERENCES sign_up (id) ON DELETE CASCADE,
+    description TEXT
+);
+success!
+timestamp: 2013-03-25T22:42:45.798524
+ALTER TABLE project ADD project_name CHAR(512);
+timestamp: 2013-03-26T00:15:09.694366
+ALTER TABLE project ADD project CHAR(512);
+timestamp: 2013-03-26T00:22:34.160589
+CREATE TABLE ratecomment(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    rate INTEGER,
+    comments TEXT
+);
+success!
+timestamp: 2013-03-26T01:41:28.968162
+ALTER TABLE ratecomment ADD username CHAR(512);
+timestamp: 2013-03-26T01:41:29.108370
+ALTER TABLE ratecomment ADD project_id INTEGER;
+timestamp: 2013-03-26T12:05:01.770147
+ALTER TABLE ratecomment ADD created_by INTEGER REFERENCES auth_user (id) ON DELETE CASCADE;
+timestamp: 2013-03-26T12:20:45.750770
+ALTER TABLE project ADD created_by INTEGER REFERENCES auth.user (id) ON DELETE CASCADE;
+timestamp: 2013-03-26T12:26:16.360599
+ALTER TABLE project ADD created_by INTEGER REFERENCES auth.user (id) ON DELETE CASCADE;
+timestamp: 2013-03-26T12:28:44.312231
+ALTER TABLE project ADD created_by INTEGER REFERENCES auth_user (id) ON DELETE CASCADE;
+timestamp: 2013-03-26T12:29:30.647523
+ALTER TABLE ratecomment ADD name CHAR(512);
+timestamp: 2013-03-26T22:50:00.773240
+ALTER TABLE project ADD count_comment INTEGER;
+timestamp: 2013-03-28T00:39:16.945424
+ALTER TABLE project ADD count_download INTEGER;
+timestamp: 2013-03-30T23:36:25.106324
+ALTER TABLE project ADD count_rate INTEGER;
+timestamp: 2013-03-31T16:02:17.857503
+ALTER TABLE auth_user ADD username CHAR(128);
+timestamp: 2013-03-31T16:37:01.220415
+ALTER TABLE auth_user ADD photo CHAR(512);
+timestamp: 2013-03-31T17:00:56.010514
+ALTER TABLE auth_user ADD name CHAR(512) NOT NULL;
+timestamp: 2013-03-31T23:50:57.905944
+ALTER TABLE ratecomment ADD email CHAR(512);
+timestamp: 2013-04-01T22:01:12.323394
+CREATE TABLE friend(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    send_by INTEGER,
+    send_to INTEGER
+);
+success!
+timestamp: 2013-04-01T23:02:26.501477
+ALTER TABLE friend ADD confirm INTEGER;
+timestamp: 2013-04-04T23:12:20.868756
+CREATE TABLE collaborators(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Project_id INTEGER,
+    collaborator CHAR(512)
+);
+success!
+timestamp: 2013-04-14T17:54:04.625018
+ALTER TABLE project ADD project_type CHAR(512);
+timestamp: 2013-04-14T19:47:39.409423
+ALTER TABLE project ADD fl INTEGER;
+timestamp: 2013-04-14T22:50:36.978970
+CREATE TABLE folder(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    vers INTEGER,
+    project CHAR(512),
+    description TEXT,
+    modified_by INTEGER,
+    created_by INTEGER,
+    project_id INTEGER
+);
+success!
+timestamp: 2013-04-15T00:25:11.258956
+CREATE TABLE file_add(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    project_id INTEGER,
+    new_file CHAR(512),
+    added_by INTEGER
+);
+success!
+timestamp: 2013-04-15T00:32:03.766801
+ALTER TABLE file_add ADD name CHAR(512);
+timestamp: 2013-04-15T07:39:32.629080
+ALTER TABLE file_add ADD vers INTEGER;
+timestamp: 2013-04-15T07:57:41.657774
+CREATE TABLE temp1(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Name CHAR(512),
+    vers INTEGER,
+    new_file CHAR(512),
+    file_id INTEGER REFERENCES file_add (id) ON DELETE CASCADE
+);
+success!
+timestamp: 2013-04-15T08:06:15.868464
+ALTER TABLE temp1 ADD cou CHAR(512);
+timestamp: 2013-04-15T08:12:32.444273
+ALTER TABLE file_add ADD cou CHAR(512);
+timestamp: 2013-04-17T00:32:10.065356
+ALTER TABLE file_add ADD modifid_by INTEGER;
+timestamp: 2013-04-17T00:34:00.256505
+ALTER TABLE file_add ADD modified_by INTEGER;
+timestamp: 2013-04-17T01:31:43.881146
+ALTER TABLE file_add ADD fl INTEGER;
+timestamp: 2013-04-17T02:03:22.375108
+ALTER TABLE file_add ADD fl2 INTEGER;
+timestamp: 2013-04-17T02:19:51.936203
+ALTER TABLE file_add ADD fl3 INTEGER;
+timestamp: 2013-04-18T21:35:55.246410
+CREATE TABLE pr(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    ne CHAR(512)
+);
+success!
+timestamp: 2013-08-25T16:06:51.297635
+ALTER TABLE auth_user ADD user_type CHAR(512);

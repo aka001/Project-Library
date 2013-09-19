@@ -1,0 +1,22 @@
+crypt:
+Field('password', 'password', label='Password', requires = CRYPT(), readable=False)
+
+what is meant by:
+db.define_table('image',
+Field('title', unique=True),
+Field('file', 'upload'),
+format = '%(title)s')
+
+{{=MARKMIN(page.body)}}
+
+<p>{{=db.auth_user[post.created_by].first_name}} on {{=post.created_on}}
+
+form = SQLFORM(db.post).process() if auth.user else None
+
+grid = SQLFORM.grid(db.document.page_id==page,args=[page])
+ 
+my count_download is independent of the user's action whether he/she is downloading the project or not.
+
+how to untar in browser itself................
+
+what is the use of Folder based system in our project

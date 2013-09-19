@@ -1,0 +1,26 @@
+{{extend 'layout.html'}}
+{{if flag==2:}}
+<button name="button">Friend request sent</button><br /> <br />
+{{elif flag==3:}}
+<button name="button">Already A Friend</button><br /><br />
+{{elif flag==1:}}
+	{{if auth.user:}}
+<form action="{{=URL('insert',args=temp)}}">
+	<input type="submit" value="Add As Friend"/><br />
+</form>
+{{pass}}
+{{pass}}
+{{for i in use:}}
+<img src="{{=URL('down',args=i.Photo)}}" width="300px"/>
+<br/>
+NAME: &nbsp{{=i.first_name}} {{=i.last_name}}
+<br />
+USERNAME: &nbsp
+{{=i.username}}
+<br/>
+<b>UPLOADED PROJECT</b>:
+{{for j in proj:}}
+{{=LI(j.Name)}}
+{{pass}}
+
+{{pass}}

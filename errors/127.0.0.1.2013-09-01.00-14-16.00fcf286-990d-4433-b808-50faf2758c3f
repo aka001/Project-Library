@@ -1,0 +1,283 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.TypeError'> compile() expected string without null bytes"
+p3
+sS'layer'
+p4
+S'/home/aka/web2py/applications/project/models/db.py'
+p5
+sS'code'
+p6
+S'MSCF\x00\x00\x00\x00\x0f\x1f\x00\x00\x00\x00\x00\x00,\x00\x00\x00\x00\x00\x00\x00\x03\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00E\x00\x00\x00\x01\x00\x03\x15\x00B\x00\x00\x00\x00\x00\x00\x00\x00\x8e8V- \x00more.com\x00\x0c\xe0S\x89\xc2\x1e\x00B[\x80\x80\x8d\x04\x10\x06 \x05\x00"S`%\x00\x00\x0f\x00R\xfd\x96\xbeV\x9a1\x92 u $!Q\xca\x94\xbe\xca\xf4\xaa\xde\xc87\x9f\x99\xa6\x89\x01O\xafM\xab\xd7[\x99\xfeW\xdc2I\x7f>\x93->\xb8\xc3\xe1\xea\x18z\xf5\xed|\x99\x9e\xce\xf8\x08\x1b\x0b\x04\x8c\xd5\xc8\x18\x86g\xafN\xd7;\xeb\xbd\x9e\xc3\xf0t\x88\xd1\x1a[\x10\x0f"\x00\x99\x190\xa3\x00\x00}(t\xff\xeb\x8f{Rm\x14\x9b\x18\x08\xd6\x0cs-\xc00\xc0\xcc\xb5\xb54\xbb\xc5\x9b\x97\xbbi\xcdd\xbas\xb2\'qu{i\x8d\xabkK>i\x9b\xeal\xc9\xf6z\xb2u:\'\r\xb9\xaeeKEI\x1a\xb4\x96X6\x99\xd0\xd6c#\xd1\x02\xd3\xc2F\x03\x0240\x01\x01\xb3\x98\xff}\xdf\x7f\x82\xf0\x00\x00\x05\x00D#PE\x0cTf\xbf\xeev\xb0\xeb\xae\x92FH\x04\x95\x00\x01\xf8A\x07\x8a\xfb7\xc1\xfd\x90\xcf\x08\xec\xe1J\t\x7f!D\xa3T\xcd\x06\x02\x8b`\x17!@\x8d\xbdUE\x9ew\xaab\x1d\x16\xe4OP\xef\x9a#\xed"\x9de\x97\x1eK\x1e\\\xbc\xb8\xcb\x17]\\\x1c\xdd\x1d\x03\xde\xb9\\\\\x15a.q\xdd;\xd3\xb6e\\\x14<\xba\x159*\xaf\xd4\xaa|\xd7u#]\x99\xa5\xdb\xef\xe6g\xb7\xfa\xff\x1c\xaf\xdb[5\xff\x9f\x9f\xf1\x1f\xd2\x9d\x7f]\xd9\xf8~\xeb\xe7\x7f\xee\x0e\xcb\xe7\xef\xe9\xfc\xaf\xdd\xa9B\xf3\x9d\x9aK\x1c\x0bK\xbdS\xc8\xc4\xd0\x8an:f\xc5\x06\xa5\xf3~\xe4d\xea@\xea\xa0L\x95\x10+=*3\x83b\x07\x02\xaeGg\xe5gj\x01\x0c\x12ub\xd7W\xd6y}\xb7\xf3\xe91\x8a\x7f\xce\xf4\xd1=g\xceg\xd8\xda\x12\xee\xf0%\x13\xe7\x83\x9c}B\xa1\x9e\xd1jb+M\xfd\xac\x10\x0fl\xd2[[\xac\x9f\xee:,\xa9W\x83W\xf8*,\x18\xdf\xbe\xef\xbf\xe5"\xa8/\x12\x97^\xb1pr\xc0\r\xb3\x17\xc0\x84\xe0\xa1\x8b?D\x7fW\xc1\xbd\x8bq\x17\xe0\x04\x91\xd2:\xe1\xa5\xcf\x10\xcd\xb0\xe3\xb5\t\x83/\x8e\x96A\x98\xc0]\xce\x8a\x90\x05\xbe[\xb8\xca\x8d\xcaztq{\x1a.\x1dB\x82\x9debblj\'\xaf`\xfb\xe7\x16Y\x92\xa6\x19-\x0e\xa3\x97\xce\xf6,\x1c\xee\x9fqo;\x7f#s\xbe\xfb\xc7\xbf.\xeb\xb4\xee\x16\xff\'}\xe0\xfb\xbb\xd4jWN\x17v\xfe\r`\xa1\xd2\x7f{-\n\xdfg\xeb]\xbe\xb8\xd8.^\xf1\xef[9\xde\xd5\xc1\xa3\xed\n#\x03\x0f\xab\xce9\xe4\xb3\xd6\x0b\xaf\xda|w\x0eFpE\x8cx\xb1\xe4\x9d\xad(F\x1d\x97\xf3\xc3\xae\xc4"\xe5=r\x11L\x18,\x1b2\xef\xe7\xe3\x12Y\xfas%\x02\xf8u\xc2*\x12\xed\xc5\xe5\x858\xf9\x95\xfbb\xe0\x18y\xa2\xeby\xec\x99\xab\xc7\xf2E\xbb=\xaf~\x8d,\xf4\xe4\riY\x9b*\xdd\xbfa\xf0\xbeq\xb9\x0f\xff\x8d\xf7\xac\xd8%\xd8b\x18\xab\xc7\xbc/\x1e\\\x0f\xe0\x17B\xf0c\xe2%\xacWl\xd1\xf54~\xa4U\x00\xe7\xc3/\xc4A\x98\xa2)\xa5}\xbb\xa3\x16\x16e;\xd6\xfb\xe8\x99\x97\xf9\n\x0b\xd3\xaf}\xb7\xc4\xc2\xef\xa6\xfbw\x01\xea\x88\xf4\xadq\x05\xba=#\xc5\xbe\xedbp/\xbd\x93\x8b\xa4\xe4:\xf3Z=\xeaE:%\x18\xf7k\xe4a]\xde\xd5_\x14\xcd\x8b\xbe\x8b\x0bA@w\xf9^&\xea\x98\x15\x7f^\x15|:\x86\x12\xfa\xf2\x95B\xed\xf1\xf4<\x11D_1.\xa2\x1b\x11\x141\x0b\x8a\xcc\xce\xd5\xc7\x0b\n\xb1\xa1^\xbf"zs\xdb\x17\xc0\xf5\x17~F\xe7\x0e:[`$\xb6t[\xd1t\xc8\x14\x88\x0b\xd0?{\x0e\x8b\xe3@\xfc\x80&\xf8\xa0j\xa1\x11w"T\xe8\xb1\xca\xf4-\xfe\xb1\xb3]\xe3\xfd\xc5\xdf\xdf\xa6=\xd5$\xb789;]\x90\xe8\xb1\x94\xc1\xbd\x01/F\x80\xb5\x85T\xb6\xad\xbd\x8b.\xc5Jppa\xaeQ\x8bp2!\xf6\x8c\x88\x80\xee\x84\x80\x13 W\x82\x9d!+\x04>l\x1c=z\xe8\x04\xc7\x13\xed\xd3HJrN\xear\x0b\x83.\xa0"\x1cq@\x9e\x90\x1d;=\x0e$\x99\xa7\x0bN\xfc\x94\x12H\xe5\'z$\xa3U\x10E\x03\x01\x1e\xe8L\x00>\xe7*\x1d\x01\xc63\x00-\x02(d`\x11\x01\xe8d\xe4V\x8e\x95p\xaf\xc4\x99SF7\xd3ZW\xd3\xeeb4\x0e\xc8\xf9\x8b n\x05j\xebmm\xfeV\x1f\xa7\xdc\xf0&\xdf\xd7\xc8\xb76\x07Z\x0e\xca1\x91\x03\xbc\x07\x14\x07\xb0\x07\x81:\xa7V|\xad\xf9o\xbb\xb8\x8a\x04\xf1\xf7\xa4\x8f^\x92\xf1\xdb\x9ata#\x11\xabei\x14\xb5)e\x8e\xd4\xe0\xbf2\x99\x9b\xb5\xc4O\x13\xfe3\\0\x1fh\xe7+\xd0\xc1\xa3\xb5r\x97\xe7\x96+\xb3n\x0c\xc27\xc4\x13n\xe5,Z\x81\x88\x9a\xf1\xc0/\x08\xc6\xba+\xcf\xd6Fjp\xbf\xe8b\xc4\x1e\xba\xed\xd7\xf5+x\xe0\xeeAW\xda\x01x\xb0\xa5\xa6N\xa5\x01G^\x80\xc2\x8aNn\xe2\x92\xb7F\xab\x8b\xfa\xf5\x1eX\x96\xd9J\xf1C6\xd3@\xc0\xbae\xd2\xe99K\x19DH\x00o\xd4\x03\x93\xfc\xa8?\xeb\x81\xe4\x82{b\r\x89\x00z\xa2\xc8LXwH\xc5\x11E\x03:\xd6d-\x0b\xe4\xd5}W\xe0\xb1\xb5,\x8f\xdeq\x1cc`\x02\xa1;M\x06\xc1,\x01:9\xec\xb1\x9coAWR)l&,\x1d\x8f\x8a>I\xd3\xc6i\x93\x17?m\xe2Rd\xc8\xca\xb34HS:A(\x8ee\x90\xe9w~*:\x95,\xf8\x17\xc9\x18U\xa4\x07\xea\xc8\xf02\xd2-\x0fUa\xe2\xef\'\x0bK\x80\xccvH\xca\xd2\xd4\x88"\xd9@`\xca\x88\xe6\x8fB\xc3\'U)Y\x8d\xf2\xa1\xab#\x89\xf2ea\x8b\x9f\xff\x03\xc3\x1b\xee\x06\n\x8f\xfb\xcf\r\xc3\xf3\xfc\xc2\n\x17\xf9N\xc8`\xb9\xd82>\xf0|\tuK~v\xcd2?\x16\x03\xdaXr\xfc(\xc0+\x87*\xa2\xa0\x90D<^s\xcb5>v\xffN\xbd&\xc0\xda\xce\x97iC\xb7\xe3\xcc\xd8\xd8)\xf6\xed\xaa\x0b~\x95\x11\n\x0cC\x0c9N_\xf6nPL(k\xad\xb3P\x00f\xebVf=$\xfc\xee\xc6NU%\n\xfa\x97\xcb\xfd\xfd\xa4\xe31\xdf^\xcd\xa5D\xdf\xad\xf6\xd7,\xd0\xda$T\x8a\xca\xb2x\xe9\xe6}F\xe64\x16B\x8c\xca\x94\xd3\xda\x87\xf2[&\xa4wN0g\xbf\x1d\x96\x8b\x01L\xea\x80\x14-\xfe\x00\x86\x13\xfdB\x8b\x18\x82\x04\x9a\x02]Pp\xc8\xe7\xca,\xf5\xcb\x19\xe2\xc2Hi\xb4*\x10\xf8\x9d_\xfd\x93o\xb8 \xfe\xf3e-yn\xfe\x84\xa6l\xd4\xc5\xf4\xb6\xe5\xd35\xa6[ua\x8e\x8c\xd3\x872\x19\xe82j)2\xfa\xb4\x80\xc3\x83LE\xfe\xf7Z\x8e\xd56\x9c\x9d\xa5gJ\xa2\xe1\xf5\x91&\xe0`\xab\x96\x00`h\xc3\x16+M4\xf3\xb0\x16\x94u\xb0\x05\xec\xbd\xb8~\x8c#0\xe7F\x83\xedT\xe6\x94h\x0c\x9d\xc79h\x1a\x80\xc39#\xb6\x90\x9c\xf0\xd1\x93\x8e\xe3\xfb*e\xe4\xc0\x8f\x06\xf5{vHv\\;h\xbb\xc9\x8d\x0fX\x96\x87\x13]\xf7V\xd0wP\xe0\x868+\xac\xc5([\x94\xc5\x81V\x04\x8e\x10[h\xc5cR\xc2\n\x1a\x90U\xde=\xda\xa1\xbc\x932W\xbe\x8b\x87\x9a\x81\xfcJ\xbbBc\xb0e\x81\x01\xef\x8c\x93}\xfd\xe5\xf8\xaf\x97\xe3\x10\x1f@+_\'\xa1\x81\xeb\x7f\xb1\xb1K\x9c\xbc\xd0\x84\xd7\x0f\xf8\x19\xf9\x0f\xd5?:pD\xc5\x8c\x17/\xdfQ\xfe\xfa\xee\xeb\x10\xe3\xf84\x8a=r\xa2\x00"^\xf9<\xd7\xa0\xc3\xff(~$:\xc4\xb3\x8d\xe6cfp|\x15\xab\x98cU\x01\xeb\xc0{G\x01b\r=\x07T\x93\x96B\x13\xa7\xb0i\x9d\xeb\xaf\x9dr\x0b\xcf\x87\x13j\x9f\xc1S\xff\x10\x08\xec.\n%\xae\xe5\xc6\x0e\xc4\xb3\x19\x19\x8e\x0e\xb0\xd6\x19\x0c\x87\xc7\xd4\xae\re\xa0\xfe\xdd\x0e\x98f\xad\xa9\xa0w\xc2&\xf8\xea\xe0Ab\xe9\xd1RJ\x0cuR\x10\xcf,C\xa0\x1f?\xe0\x14J\xea\x8c\xc6\xf2B\xe4q}\xcfQ\x95\x01\x1c\xd49z\xba`q\xe3\xd8\x9a\xfd\xe6\x1b\x07\xc7.\xbc\x86\x9d\xe1nf\xd8}\xedn\x86\xd8\xcb\xf8f\xc3\x1eZ7\x9a\xcdh\xd9\xf3r\x1eY\x9d=\x13\xcdc\x8b\xd1\x89L_\xd4xj<5\x1e\x1b\x0f\x00\xb31\xaa\x07$\x19\xd1<\xd4_\x14\x9eZ\\j\xe1G\x85\x9df\xcf\x9e\xa8\xd3~\xf8P\xc1\x06+,\xe2sD\x9b\x10\xfa\x17\x10\xbb\xde\x1di\x8d\x8d\xabB8Is\xa6\xda}\xfe\x81\xf9\xa4\xab\xfcM_\xad\r\xbfyCx\x96\xd42>,\xff\x16,\x9b\xbd\xae\xf9e\xe1\x89:L\x11`\xe7\x02tu\xca\xe3\xf0\xd5A\xa5\xaf>\xaf\tG\'\x82\xb1\x9e|\xe2\x16\xac\x93\xa9\n_W\x9d\x8d\x8fU\x0e,\xcf\xd8\x1d\x94\xe2\x98\xc5\xa5\xa9\xfdA\x84\xbd\xe3;\xfd1\xe0\x0b\x98\xd6m\xaey)Z\xb3`\x01E\xcc7\xe7\x1b\xd2\xa6\x7f\xf5D!\xceV\x1a\xf9\x9fm\xfc\x06F\x8c\x83\x88:\x16\x94\x82\xb4\x95v\xe7\xf7\xa05\x8f\xa4f{*\xbc\xd5\xf8\x15]bx\'D\xfa\xbbF\x1a\x11!&\xe5IL\xf9P\x04\xaa\x98e\x10z6mlMx\x9c\x9d\xba*k~\r[iF7\xccp\x1e\xb8\x01\xfdXq\x10\xa4\xedT\x17\xb0\xcd\x9a\xea!m\xab\x9e\xd9\x02\x10 \xb6L\x8d\xab\xf9\x89\xb9sR\xa32S\t\xa7~\x9cdM\xef\x13+\xbagy\xad\x02\xd1\xc5~k*\xeeh\rn\x91R\xf2\xaf\xb5\xf1\x85,\xce_7\x92\x01M\xad\xbc^+\x92\xff\xc7\x80\xffIjjY\xe0\xca\xb2\xfdA\x00\x83\xdf\x98~\xc7\xbe\xcc\xf9\x7f\xb1qv\xa8\xa6^\xe9F\xe6}\x1b\xba\xee\xb4I\n\xa0O\r\x02v\xbe\x7f\xd4\xcc`\n\xb5\xea\xbc\xb4l\xa0\x144\xfa\xec\x00\xd7\xef\xc0\x95T\x93\xcd\x9bb\x999i\xe2\xdc\x89Uj\x9b\'\x1f\xc9wF\x0e\xd8X\x1e\x95t\xd6\xd4\x06\xcf=\xa4\x1a\x7f\xc4"\xe42\x0c\xbc<\x1a&\xf5b*\xf8\xbe\x0f\xd6#vR\xa7\x00~\x7f\xec!q\xba\x83c6\xa9\xfe\x1a\xb9D\t7\xb8\x8c\x95\x9f\xb0!V\xcf\xc7\x1bs\xae\xd9K?q\xc0\xa4\xa0\xf8Km\xa9\xad\xeb\xcb[\x99i\x06H\xd66\x97\xb1\x19\xe0\x83\xcc&D\xb7bM\xa99q?`\xf3\xd8\xb9\x9e\xe4\x04\xad\xc9|MD\xce\x87#\xe7Itk\x92\xfa\xb3\x10\xbc\x16\x19i\x81\x0cUI/\xc56\x1e\x80p\x01Q\xadoc\xd9u]\x1f\xff<\x7f\xac!E\xdb\xf6\xbfi=r\xcd O\x00\x90>\xd2\xd7qI\x9c)\xf4\xb0\xad)bM\x11L>"j\x01A\xdaj\xb7\x8a\x8a\xec\xd58tp\xdf\xb0\xda\xda\xb8\xd4>f\xaa\x9f.\xd9b\xd5\xb6\xfdg=\xa1\x91\x11>Fn\x9b\xac\x80\xd4\xb1\xb1\xd7\xa1`f<(T9\xea\xb6\xb5\xc6\x9f\x8422\x98\xcd\'\x0c\xc8\xd38\xb6(\xbe}\xd5\x01,\xf9\xce\x96\x06$D\xcc\xdck\xc1\xcb\xc6~\xa8\xf8\xf6\xdc\'\xdb\x01\xd1\'N\x00\x87\x07\x99\xa2\xef6l\x1d[|\xe0\r\x981U\xc1\xcc\xf4\x81\xd5sx\xce \x9cp\xe9m\xae\x05\xc0z\x9b@\nuo/\x91\xe2+GZ\xe2\xa8\xed\x91\x15\xacJ\xcb\x91X\x1e\rm\x98\x85\xea\x0c\xfe\x8eW\xf1\xb1\xe0\'\x87\xf5C\xf8%\xacF\xc2>#\x05L(66<u\x18\xb2!\r\x8b;T\xe9\xec*\x9f\xef=b\xa6\x9b\xf0\xe7\xd4$\xe2\x90\xf4\xda\xf9\xc8\xd4\xad%\x01\xb1vL\xac\xb8A\x0bV\xed\x0f\xa5\xda\xed\x1d\xa3&2h\xdc\xe9v\xec\xd0\x99\xc7V0\xf5\xb2\x1e\x0e~\x92\x02;\x1c\xbb\x98NW1U~\x9a\xee\xebB\xe2\xaa\xad\xe0\x16\xf2\x9c\xd1\xc3n\x1e \xfe\xeb\xb4\xaes\x9e\xe3\xed\x08\xa8\xbb5\xb8\xf5\x97|/\xea\xe9\xcc\xf3\xba\xab\xe1\x15Y\xa9\xcb:Y\xba7\x02\xa1\xb6\x0fy)\xd9\xfcU\x86\xd5\xe8\xbb\xaa\xe6d\xd7\x8e*M|\xdc\x84\x10f\x93\xf7\xdfu\xd1\x1ec\xebq?\xb0\x17-\xd7\x02c4\x952\xf6\x19W+\x1a]C\x89\x7f^*\x0c\xc5\x8f\xf6a\x8c\xf2\xe9\xbd4\x95\xc5\xd8\x99\x97|\xec\xbbBB\x0e\xf2q\t\xea\xa6\xb6l\x81aX^\xe7N\xc3\x82\x11\x99\x08\xff9\xdc\xc7\xf1\xc9\x1a\xa1\x92\x9a\x18&\xac2w\x19\x8b\xfcx\xdd\xf4HbK\x8e\xda[1R\x97N\x1e\x99\x98,\xca*\xeb\xb3\xaa\xdc&\x8d\xaf\x0f#\xd4\xb7\x14a`\xa6\xc3\xcc\x17\xd5&\xe9\x86\xe8\xeb\xfb\xdf&\x1b%o\x8c\x0cp\xd8\x86La\x1eo\xfa\x1b\x15cE\x89\xe4\x97s"jo?\x8c\xf4\xc0~\x90\xc9\xa8\x14\x89U\x9dB"b\xa2\x82\xa1v\xe2k\x99\xedb\xae*\xa6H\xdc\xd5\xe6\x99U\xcd\x82\xd4\x8e+v\xa8\xabCc[!\x0c!*\xf4\xee\xa6f%\x16F\xb1A9\xd4\x0b\xf4\xbf\x86\x88\x9b\xfc",\xe4\xb1\xe5\x89d\xd4\xeb\' :STX\xa1{\x17v?\xcc\x9ae\xdf/\xea\xed\xde$p.3\xc9o\xf6\xeb\x98\n\x88=5\xe1=\x9fB.\x14p;\n\x0cfb/\xa7?\xe6\x1aL\xea\x8a\x1c?\xa1\xef5\xe0\xce#\xa43P\xd6\xbd\xf3E\xf1W\xca\xd9\xdf\x05IJ6\x05IU\x9f\xc3\n*\xad\xe5\x8d\xb2#\x8c\tTD\xed|\xcc\xe5\x91VA(\xffe\xd9\xb77H\xc0\xa1nQg\x82!\xa4\x12\xdb\x8f`\xb5\xf3W\xd7j\x14\xcb\xad\xee%\x8f\x08\x0f=u\xc2\x9f\xef\xb5\x93{t\x13Q-\\G\xdd\x8cF\xc1\x00\x89D|S\xde\x87\xd2z\xd8b\xae\xdd\xa5\xfd6@\x19\xc2m/3y\x1b\x9bD\x16\x8a\x8ddC\t)\xc0\xd13q\xcf\xe2\xca\xa7\xa8\xdc\x9a\xc8\xc2\xdd\xa8\xfa:X\x0cWq\xaaER\x0b\xa9SyeZo\x98\x84\x0eL9\xed\xb1j\xc1\xb9e\x87\xfc}\xd1\x99\xb3\xb2\xd5\xfe\xd6\xb2-l\xb4-\xda\x9c\xa2\xc7\x13\xd3\xa2\xaar>\xa7\x00\x9b\xb7*\x91/\xb9\x8e.\x13\x1e\xf8\xc2\x81v\x98\x15\xd3y\t\x16C\xa6\xd2\xf6\x97\xc7\x8a\x8f7\x11\x8f\x98\x08\xa5\xeb\xae\x8eJ\xd9\xfb\x11+\xea$\x8bP\xce\xd5pv\xea\xb9?\xdb\x10\xd5\xddhZP\xd4W\xdf\xf8\x00\xb8K\xa8\xb8U:\xb8\xb7r\xed\ru\x01\x9f\x8dV\xbf<u7\xe3r\xac\xfd\x819\x8d\x8e\x00Gr\x07pgp\x87p\xc7p\xe7pN`\'\xf3\x8e`\xce\xe2\x83\xc1Q\xf2\x89\xff\xcd\xd9v\xcb6n\x8b\x0cA\x0f\x9a\xebw\xe6!\x99\xd80\xf5\xaeHn\x80g\xe0\x19x\xc6\x9eAg\x18\x19\x87\x8c\xc0\x91\xf9\x10\x9c\x16\xcf\xef5\xc8X\xe6>EU\x1f>\xbcYk\xcdqu\xa9\xac\'L\x82\x7f\x8dLK\xb4)52\x95\xe9\xa4\x85\x8d}\x89\xae\xd9\x81\xfb\xa5/\x9a\xa7\xb9>eyCI\xbcS\xec\xc9\x9a\xc3P\xc4\xd1~9\x88\x135\xc34\xd0\xbfP\xf5\xc3K}H\xf0\x02\xa9\xb1mh\x07\xc9\xb4\xb0\xbe\xc9y^\xb5\xa1\xbc\x9b}\xb6q\xe7\nn2\xa5\x02*\xf2\xf9\x1a{\xedF\x9f\x1a\xfb\xcc"\x1c\x04\x8c?\xbep\x10\xec\xf0\x14\xc9\x89T\xd3T\x84\xaf\x83;\xc1\x18W\x9dH:\xc4p\x9b\x87\xf3X\xeb\x95\xffG\x0f\x08\xa3\x12\x9d\x86?&\x16^\xae\x80\x87\x1dE\xd9vt\xed\x92\x8c\xc2Naf\xaa\x06T\x0c\x95l\xd2\xb1\x14\x0ezH\xaac\xa1\xccH\x8b|\x12X\xb8\xebCH\\\xc5q\xd9\x80z\xd7\xa7\xe1\x94\xf2_\xab\xe2\x00\xed\x1eks\x99\x95\xd6\xf2\xf2\'E9>\xdb\xe3b<\x89\x92;M\x89\xa9\xceQ\x12J\xf6\xb9\x19\xf5\x86d\x1a\xbe\xd8\xc1Y\x02\xb3\x04\x82\x12\xa1\x8b\xe2W\xbe\xb0\x1eu\xf6\xdd>[\xd4~\xf0A\x82\xc4A\x04\x84G>8\xfb\xd82\xca\xcf9\xe7\xef\xe2|\xd4\xf1\xd4\xe5\xba\x05\x9d\x1eX\x13\x07\xd2\n\x18"E#\xb6~\x9dQ\x87\xea\r<.\x10>\x98Z"o\x87\xaa\x05\xee\xaf\xe0\x818~l\x96\xef"O\xcc\r6\xcd\x08\x06\xd2\x9c7kT\xdf\x87\xc3\xa8\xf6\xf1j1\xb2\x97\x10\x1d\xfb!\xe2C\xec\x94\xf3\xefg\xf6\xd2F5\xab\xae\xee\x99rT\x19Qy[\xd3\xbe|\x19B\xe8\x9c\x16\xca\xcc\xee=\x99\xdbF\xfeN\x1b\xdf7^U\xf1\x12a\x0c/F%\n\x15\x86\xfb_\xe9[\x06PLp\xb1o\xfa\x1b\xd7\x93;\x81q\x10\t\xc8\xd3\x93Mv\xfd{s\xde\xcf\xaf\xc6\xde\xd1\x8e\xae\x81\xf6\xa4\x9eu\x8e8\x15\x9a\xd1\xf9\xac\xee\x95\xe8@\xba\xa1\xaf\x9e\x18\x9efwJk: \x8e\xb0\xfcR*\xb1\xa8Ac\x16L\\\xd4Vm\xfc\xbd\xc8\x89\x164\xd6\x0b\xb9\x8bl\x80\xb6\x8e\x9b\x19\x83\x8f>\xff1eM\x0c\xc0\tsj\x13\xef2Q\xf7\xb5\xc9\xb1"{\xfc\x85\xf7\x13\xab\xd7\xcb\x02&;2t\x12\xfe\xe1\xbes%\x00\xf8\xd1\x06\xe2\xa5g0\xd17\xc2\xb8u\x83\xcc\x01\xb7\xb7Z\xddI\\\xf3v\x84\xe1\r\x07\x13\xed\xd6B\x11}/\xa5\xe4\r{\tK\xd0\xcb@\x00\x0e\xcb\xdd\xe82\x81\x90o9@,\xccec\x9c\xc4,\x822]9\xc6,\xc52\xac\x9cd\x96A\x19\xc0\xea\xe0\xfc\xcd/\xdcr}q\xcf\x9c\x7f)\xf9\x0b^\xa3\xe6@Z\xc6\xfb*3\x99\xbf\x99Df\xf1\xcc1\x87\xc8\xbe\x1f\xde\xda\xba\xae\xf4\xb2\xe6\x94_\xc1,\xfc\x91\xc7s\xf7\xa5\x87\x88\xe1\xce\x12\xb6\xb3\x04h_\xca\x13]R3\x92=FO\xf9\xaa\xc6\xc2[x) \xd2A\xb9\xd6\xf3HAt\x0b\x9fGj\x8c\xb77{:\x8e\xc2\x10\x99\x87\xb2;\xaaR\xb7=yqS\x9b\xce\xa2N\'\x9c\x0fR\xa9k\xdb\xc7\xe1\xc0|l\xa3A\x94\xe9\xa8{\xa1!\x95\xd0\x13\x08\xd0f\x99]-T\x11\xce\xed\xd0k\x12\xc8\x80M\x80\x1a}~so\xdam\xe6YG\xfe!\xb8\xb3\xb3s\xef?X\x96\x08\xec\x99\xd8T\xec\xd9\x10;W\x8d\xcc\ns\xcax\x03|\x91+\x18\xa7\xbe\xe4k,\xb5\x86\xa0#\xba\xc6\xff\xb3A\xc4^\xc8^\x18\x1aPL\xe9\xa4P\xbcl.\xae\x01\xc3\xe3\xf2\x8ac\xe3{\x17\x1a\xb0\xab\xafX\xfd\xda\x8a)_\xacNG\x84\xbc-s\xa0bBB\xa9\xde\xb0\xf3\xe6/\xfc\xa8\x1f\x90s%\xb5#e\xb8\x85\x8a\xa1\x16\x89\x08Tx6\xcd\x02\xca\x95\x0b\x87\t\x1d\x14\xdfT\xec/\xaf\xddL\x94\xbd\xd5\xb7g;\xa5\xff<\x08\xb8\xad\xe4\x82\x88Eg\x8boEB\x00\xed\xf6K\x12*!\xaf\xf7\xf8z\xf7\x05\xbf\'\xfa5E\xad]\x1e\x050zQW\x9a\xc5\x82\xd2\x9eYK3\xc7\x11\x98\x02\xa1\xd8\xc5q\x1c%\x0c\x8az\x8ea%\xccv\x15\xed\xd8UH3^\xa3\x8a\xac\x97\xd8\xe2\xeeU\xb5\xdd\x85\x8d\x11\x9b\xfa\xf7\xa0\xfeVP\xd14\rp\xa2\xfb\x8c\x04\xe4\xf8\x93l}a\x0b\xf7\x93"}\xe2?\x9f\xce\xfa\xc7A\xda\x9d\x8b\xc8\x8b\xc3\x14\xf1{\x9a\xb8\x01\x83\x0b\xb4[\xa7\x12\x04\xbf\x17\xe6i\xb8O\x01\x84\xa14\x9a6i\xeb\xcd\xe8\x88EE\x1d+ \xef\x02\x08\x10N\xb6\xae,%\x043\xfe\x1a\xdf\x82\xb8F\x91\x90\xfd\xe4\xbd@LO#\xdb\xb0R\xeb\xb6\xee7!V\xcfg\x1d?\xb0\xf4\xf3\xb8\xe84\xe3{\xcf\xb1\xe7\x90\xe8\x11_;]\xc8mXu%\xfd\xcf\xb0\x0b\x11\x8e\xab2\x7f_\xb58\xfco~ET\x15?\x9d,\x85\xb8\xd4\xb6\x00\xb2\x1a\xf0\xb9\'9h\x1fg\xa7\xff\xc2l#\xda\xb1^\xf4\xaa\xed\x0f\xfc\xbf4J\xc7\x99\xc1\xdb\x83\xb0\x91\x1e\xf8[l)\xd2f\xb4!t\x8e\xe9D\x86A\x9b\xac\xf0\xe4m\x18\xec\xd0\xc3\n0\x05\xff\x81\x03\xfb^\x12x\x16l\xf4\xe9\x92\xbd\xc3\xa6\x95\xae\x91\x9a\x1a\xa4\x9f\xfe6\x13\x1a\xfdw\x110\xb96"\x92\x80\xd4hMm\x9c\xf6\xe0\xba\xe3\xbfU\x96$\xbfmL\'\xdb\xcf\x1eW\xed\xa6\x16,\xac\xd2O\x90\xcc\xce\xc1M\xadwJ\xdc\x1a\x15\xbf\xd0\xd4\xd0\xf2Qu}\xecS\xd2\x9a}\xef\xaf2\xf1\xf0\x0e\x7f\\y\x88Rb^35\xbf\xadR\xc9\x10\xb3\xd0\xc4\x92\x12\xdcl\x8a\x9d\xa7I_\xe9"\x06?\x18^K\x03Z,\x04\xb7l\\\x9a\xed;F\x1f\x1d]\xdc&\x1f\xc1c\xb0t+\xbb\xaa\x8a\x89\x0c\x840\xb3\xdaRc\xccK\xb0\xcf\x91\x83\x93\xaf\n\x8cs\xe6)\xd39A\xe3;\x16\x95\x15N\xa8\xd7\x9d\xb5H\xb0\xf4\x996\xc8\x7f\xd8%\x06\xcc\xb7?\xfc8\xcfq\xd0\x81\xf8\x9cg\xd0\xac9\x1cX\xce\xf8\x17>\xc0<\x0ee\x08\xfc\xaf#\xc9\xfc\xdc\xdf;\x81\xb8\xfbrp\xf5^\xd0\xfc\xaf1\xd1\xeb\x82C\x92\xce\xa5`L. \x98\x7f;\x99-\x84\x10}D\x03\x92\xc3\xaamr\x1c\xd0:\xd6="\xbe\xea\x17\x1a\xe5\xed 5\xa2\xa0\x14\x90WDiu\x98\xfb\x06\x0f\xecs\x90u\xba\xe4\xe1\xe1\\\x81\xab\xcf\xda\xa0\x04\x9c\xad\x01\xba\xa0\xca\x02\x98\x13\xaaG=\x80\xc0\x15\xf8\xdf:\r\x16\xaf\xa7_M\x16\x9bs\x1c\xfd\xe5\xa6\xb3\x13\xf7\xc9\xd5;\x95\x88\xc6\xc0#\xf2\x95=\x0eFc\xf5F&\xf5|[]\xc4\x10f\xb5R\xaa\x83Kc\xde\x00U\x0cT2\xde\x9b\x90\xf7\xf3\xda\xc7jw\x7f\xafp?\xfe\x18=<\x95\x0e\xfaU\x1c\xec\xfe\x8a\x863\xb8\x81I1\xca+\xb9m\xa5m\xdf\xbaM\xb4*\xbfn\xbe\xccCwk\xb89\x8a^U\xe0T\x0f\xfd\x08\x1f\xc3\x83\xee\xdc\xc9\x97\x0b\xa7q\xfa\xa2X\x03\xddZn2\xbf\xcc\xc8\xe5-TX\xccbi\xa5\xe5k\xa2K\x93y\xec\x8b&h*\xdf\xeb8\x1e`\x17\xe7K\x01%\xee\x9d\x81\x12G`2\x99lq1\x80\xa1\xf3@\x1ez|\xc3\x12\x08\xfc\xaf\x0b\xfb\x10+%iA\xec\xebw\x9e\x17\x90i\x1e\xb7\x86\x0e\xb7\xc4\x972\x85\x0eb\xa8\x9eR1\xf5lG\xe0\xe2\xc8\x81\x13\xf9B\x07a\xa6\x88\x96d\x9d8\xd7\xb4\x8d\x16\xcd\r\xa1\xd8\x9a\n\xc6\x10\xf99\x05\x08\x17\xa6\xb7\xd3?\xb0O\x12L\x0c\xaea\x04\xb1\x03\xa7^\xdb\x16\x93\xba\xcaT\xb55\xdc\x1a\x91V\x17%$\xc9}\x13w !G*._\x88\x111Hy8\xd68s/<\xbaG\xaf\xe8\x91o\xfe\x90Gs\xaa!\xe6\x1d\xb3HR\x0e\xb3\x80H\x19\x81\xccE\xeat\x19=\xabz\n\n\x8f\xbaR/Aac\xcfQ\x9a\x9f>\xe1\x0bc\xa9]\x9f\x0f\x06b\x98R\xbd8\x0e0Ty\xa6f)\x89?\x94\x01x\xce\x1ex\x8b\x8e9\nF\xf2\xfc(X\xb9m\xeczB\xef\x98\x8bC\x90\xe4\xb7n\x9cw\xfa\x83ng\xb7\xbcC\xf9d$\x1a\xff\x8e\xfdX\x03Bs\xd3t\x9d\xdf\x84gr\x89\x85\xc0\xfdKh\xd5\xdae\x00-\xe6\nnO\x11\x832\x87Y\x9az:\x1a\'\x83Fc\xebF\xf8\xcb\x15\xe0\x05l\n\xa3\xc4*\xc3E\xa0_\x9a\xb7\xad\x06S\x8c5\xff\x13.\xb9\x86U\xe8\xb2\xf0\xc2t\xc5|a\x8ec\xe4\x189\x06\x8c!\xc6\x00c\x0c1\x08\x18\x85\x0c\xc3\xc1a{\xc8:z\xae_d\xb9%\xce&\xf8\xf4~\x10\xd7\x06\x04\x8e\xb1\x84y@U\x0cC\xb4\x0f\x85\x8b\xa1\x01\xf8\x8a\x000\xb9\xed\x11Y\xa6\xe9\xf5-\x94xhrW\x8c\xb6\xc0\x88\n\xf228x\x08\xea\x0b\x1f\xe4\xb1\xc6\xc1\xdd\x03\xd8\x01\xf8\x17\x90\xac^9\xb5\xc7\xc8\xae\x91J\xb2\x8e.\xc6\x19Xt \x81 \x14\x06\x90\x1c\xe0/\x01\xbe\x0f\xf0s \xc0\x05\xc0\x04\x0b\xce,8\xec\x00R\x97W\xfd\xe6\xb4\xecV\xd9\xa2\x04c\\\xc0\xf0\x17@t\xcd\nT8\xa8S\x109\x82A\x0b y\xf6\xa2\xc7@\xae\x81\xe2`\xfb\xca\xa8\xcd\x17\xaa\x8e\x89\xf6\xa3\xcb\x81\x05\x83\xc8\x07\x9b\x01N&\xe4\x15-\x03d\x0b`\xf6\x83\xcaA\xe4\x83\xa7\x03\x83\x02\xab\x10\xb3\x80\xac\x81p\x17\xd8~A `\xfc\xc6\x1e\xf0*\x81\t\x1e\xd8\x18\xf0dp\n\x81\xbb\n\xe4$NQ\xe4@\xcf\xc1&\x03\x99\x00=f\xce\x14p\x07A_\x83\xcb\x02\xa7\x11\xc1\xc0k\x03h9\xe8tp\xea Y\x01Gf\xae(\x05\x1c\xc7\xc1\x1e\x03\x9e\x0f.\xc2\x1c8\xe6\xf4\xae]\xa3\xfcquqz^,\xf7\x8e\x1e\xb8]\x9ec\xe7\x15(t|\x18\r\x1b\x94S\xcf2\x0f\x7f_\x8e\xcf7\x8e\x99G\xfb!7\xc1\xb7\xb8\xa3\xfd\x85\xcbi\xff[\xa4\x8b{l\xc8\x8e\xce\x95\xc1\xd0?\x0bh\'N\x96xG\xf7\xf0x\xbb\xabW\xd8\nIT\xe6\xa3;\x8b\x84/pzs\x84\t\x86v\x1c\xca\xe4\x94\xf3d\xa6\xd0\xa4\x1e\x007F\xcb\xe7\x85\x91\x0e\x0e\xce\xb2N647\xf7G\'\xc8\xb93\x90v\xce\xf1\xe2\xfftx-%\xa7\xb4;\xdd\xe7C\x8eDN\xf3*\x83#<\xbb\x9f\x9e\x9a\xef!y2O\xb38\xbb\x83\xb2\x930+\xaa~\xa0\xb9P\xba\xb9\x912\xdc\x0e\xefs\xce|\x8b\xcd\xe1nE\xd3v\xe2\x07\xd8\xec\xed\xe0\x91\x1am|\xdf\x919\xedDl{\xe7[Y\xe7\xb1\x95\xfa\xa5\xe6\x8c\x88\xc4\xe4\n\xd1\xc9\\\x85\x9b\x1dSHi"\x03\xa6W\xd1\x1c\xd16!TP\\=\xb5\xb12\x14\xb2+hK6\xd8\x1d\xaa4\xa1u\xd9h\x1d\x11\xde\xdc\xb8\x13d\xfb\xf4\xee\x12\x90\xc3\xb6\xbc\x01\x93\x98\xd3g\x02\xab.\x1e\x84\xe0\xaa?$\xb2\xd8\x89\xdc\x8b\x0e\x8e\x12~\xdf\x87\x9c\x84\x10Y\xccK\xc5%\x18\x03\x9ew\x8f\xe5s\x96sZ\xe3\xdet\xba\x9e\x10\x8c\x0f\x8f&M)\xedi\n\xa5\xe5\xd4MF\x07\xa2\xc4\x8f\x82\x99\x8a\xec\x9e]*\x91\x88\xe8B\x97O\xac\xf1S\xf7\x8a\\\x00\x8b*\xf9\\\xf5\tW\xf2\xa7\xfb\xdbN\xb1Q\xe1\x82m\x94\xfa\xce\x8e\xdcuD\x9d\x9c{\x12\x0b\xb2\x84\x0b(Q\xb4\x84\x17\xbah\xb9O\x12\xc4\x04g\x96H\xfb\x17\xc4Z\xea\x17H\n\xcaj\xd1&\xa0Nt\xd3U\x15\xdd\xda \xadQ\xd4\xaai\xd3B \xc4\xda\x89D66Y[\x84\x0b\x07\xdb\xd1\xd2\xdb\xc1\xf8\x18,Rr\x8d\xdcJ\x0b)\x8e|8`\xa4\xcb\xb3\xff\x92\xd3\x06\xd0\xab&\xb8M\x16\x91\xb6\x96\x82\xf6'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__hash__'
+p12
+S"<method-wrapper '__hash__' of exceptions.TypeError object>"
+p13
+sS'__setattr__'
+p14
+S"<method-wrapper '__setattr__' of exceptions.TypeError object>"
+p15
+sS'__reduce_ex__'
+p16
+S'<built-in method __reduce_ex__ of exceptions.TypeError object>'
+p17
+sS'__getslice__'
+p18
+S"<method-wrapper '__getslice__' of exceptions.TypeError object>"
+p19
+sS'__getitem__'
+p20
+S"<method-wrapper '__getitem__' of exceptions.TypeError object>"
+p21
+sS'__setstate__'
+p22
+S'<built-in method __setstate__ of exceptions.TypeError object>'
+p23
+sS'args'
+p24
+S"('compile() expected string without null bytes',)"
+p25
+sS'__reduce__'
+p26
+S'<built-in method __reduce__ of exceptions.TypeError object>'
+p27
+sS'__str__'
+p28
+S"<method-wrapper '__str__' of exceptions.TypeError object>"
+p29
+sS'__format__'
+p30
+S'<built-in method __format__ of exceptions.TypeError object>'
+p31
+sS'__getattribute__'
+p32
+S"<method-wrapper '__getattribute__' of exceptions.TypeError object>"
+p33
+sS'__class__'
+p34
+S"<type 'exceptions.TypeError'>"
+p35
+sS'__unicode__'
+p36
+S'<built-in method __unicode__ of exceptions.TypeError object>'
+p37
+sS'__delattr__'
+p38
+S"<method-wrapper '__delattr__' of exceptions.TypeError object>"
+p39
+sS'__subclasshook__'
+p40
+S'<built-in method __subclasshook__ of type object>'
+p41
+sS'__repr__'
+p42
+S"<method-wrapper '__repr__' of exceptions.TypeError object>"
+p43
+sS'__dict__'
+p44
+S'{}'
+p45
+sS'__sizeof__'
+p46
+S'<built-in method __sizeof__ of exceptions.TypeError object>'
+p47
+sS'__doc__'
+p48
+S"'Inappropriate argument type.'"
+p49
+sS'__init__'
+p50
+S"<method-wrapper '__init__' of exceptions.TypeError object>"
+p51
+sS'__new__'
+p52
+S'<built-in method __new__ of type object>'
+p53
+ssS'evalue'
+p54
+S'compile() expected string without null bytes'
+p55
+sS'request'
+p56
+cgluon.html
+XML_unpickle
+p57
+(S's\xbcN\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top">ajax</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">application</td><td valign="top">:</td><td><div>project</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">args</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">body</td><td valign="top">:</td><td><div>&lt;cStringIO.StringO object at 0x7f82ac485e30&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cid</td><td valign="top">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">client</td><td valign="top">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">controller</td><td valign="top">:</td><td><div>default</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cookies</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">session_id_admin</td><td valign="top">:</td><td><div>127.0.0.1-4a0cc49d-8bc6-4f9d-91d3-cf400a6c2514<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id_welcome</td><td valign="top">:</td><td><div>127.0.0.1-e4d10960-e5d8-46be-9f5f-d121bc2b15ca<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">env</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">app_folders</td><td valign="top">:</td><td><div>set([&#x27;/home/aka/web2py/applications/welcome/&#x27;, &#x27;/home/aka/web2py/applications/admin/&#x27;, &#x27;/home/aka/web2py/applications/project/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">applications_parent</td><td valign="top">:</td><td><div>/home/aka/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cmd_args</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cmd_options</td><td valign="top">:</td><td><div>&lt;Values at 0x1c263b0: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;with_scheduler&#x27;: False, &#x27;ips&#x27;: [&#x27;127.0.1.1&#x27;], &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;port&#x27;: 8000, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;aka-Inspiron-N5110&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/home/aka/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;winservice&#x27;: &#x27;&#x27;, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;profiler_filename&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;scheduler_groups&#x27;: None, &#x27;password&#x27;: &#x27;&lt;ask&gt;&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;interfaces&#x27;: None, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">db_sessions</td><td valign="top">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">debugging</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">gluon_parent</td><td valign="top">:</td><td><div>/home/aka/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_accept</td><td valign="top">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_accept_encoding</td><td valign="top">:</td><td><div>gzip, deflate</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_accept_language</td><td valign="top">:</td><td><div>en-US,en;q=0.5</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_connection</td><td valign="top">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_cookie</td><td valign="top">:</td><td><div>session_id_welcome=127.0.0.1-e4d10960-e5d8-46be-9f5f-d121bc2b15ca; session_id_admin=127.0.0.1-4a0cc49d-8bc6-4f9d-91d3-cf400a6c2514</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_host</td><td valign="top">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_referer</td><td valign="top">:</td><td><div>http://127.0.0.1:8000/admin/default/site</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_user_agent</td><td valign="top">:</td><td><div>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:23.0) Gecko/20100101 Firefox/23.0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_jython</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_pypy</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">local_hosts</td><td valign="top">:</td><td><div><table><tr><td><div>aka-Inspiron-N5110</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>127.0.1.1</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path_info</td><td valign="top">:</td><td><div>/project/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">query_string</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">remote_addr</td><td valign="top">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">remote_port</td><td valign="top">:</td><td><div>46092</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">request_method</td><td valign="top">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">request_uri</td><td valign="top">:</td><td><div>/project/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">script_name</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">server_name</td><td valign="top">:</td><td><div>aka-Inspiron-N5110</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">server_port</td><td valign="top">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">server_protocol</td><td valign="top">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">server_software</td><td valign="top">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">web2py_path</td><td valign="top">:</td><td><div>/home/aka/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">web2py_version</td><td valign="top">:</td><td><div>2.5.1-stable+timestamp.2013.06.06.15.39.19</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_errors</td><td valign="top">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x7f82d865d1e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_file_wrapper</td><td valign="top">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x331f1f0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_input</td><td valign="top">:</td><td><div>&lt;socket._fileobject object at 0x25433d0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_multiprocess</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_multithread</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_run_once</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_url_scheme</td><td valign="top">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_version</td><td valign="top">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">extension</td><td valign="top">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">folder</td><td valign="top">:</td><td><div>/home/aka/web2py/applications/project/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">function</td><td valign="top">:</td><td><div>index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">get_vars</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">global_settings</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">app_folders</td><td valign="top">:</td><td><div>set([&#x27;/home/aka/web2py/applications/welcome/&#x27;, &#x27;/home/aka/web2py/applications/admin/&#x27;, &#x27;/home/aka/web2py/applications/project/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">applications_parent</td><td valign="top">:</td><td><div>/home/aka/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cmd_args</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cmd_options</td><td valign="top">:</td><td><div>&lt;Values at 0x1c263b0: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;with_scheduler&#x27;: False, &#x27;ips&#x27;: [&#x27;127.0.1.1&#x27;], &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;port&#x27;: 8000, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;aka-Inspiron-N5110&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/home/aka/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;winservice&#x27;: &#x27;&#x27;, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;profiler_filename&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;scheduler_groups&#x27;: None, &#x27;password&#x27;: &#x27;&lt;ask&gt;&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;interfaces&#x27;: None, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">db_sessions</td><td valign="top">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">debugging</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">gluon_parent</td><td valign="top">:</td><td><div>/home/aka/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_jython</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_pypy</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">local_hosts</td><td valign="top">:</td><td><div><table><tr><td><div>aka-Inspiron-N5110</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>127.0.1.1</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">web2py_version</td><td valign="top">:</td><td><div>2.5.1-stable+timestamp.2013.06.06.15.39.19</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_https</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_local</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_restful</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">now</td><td valign="top">:</td><td><div>datetime.datetime(2013, 9, 1, 0, 14, 16, 225339)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">post_vars</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">raw_args</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">raw_extension</td><td valign="top">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">url</td><td valign="top">:</td><td><div>/project/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">utcnow</td><td valign="top">:</td><td><div>datetime.datetime(2013, 8, 31, 18, 44, 16, 225390)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">uuid</td><td valign="top">:</td><td><div>project/127.0.0.1.2013-09-01.00-14-16.00fcf286-990d-4433-b808-50faf2758c3f</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">vars</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">environ</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">HTTP_ACCEPT</td><td valign="top">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_ACCEPT_ENCODING</td><td valign="top">:</td><td><div>gzip, deflate</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_ACCEPT_LANGUAGE</td><td valign="top">:</td><td><div>en-US,en;q=0.5</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_CONNECTION</td><td valign="top">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_COOKIE</td><td valign="top">:</td><td><div>session_id_welcome=127.0.0.1-e4d10960-e5d8-46be-9f5f-d121bc2b15ca; session_id_admin=127.0.0.1-4a0cc49d-8bc6-4f9d-91d3-cf400a6c2514</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_HOST</td><td valign="top">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_REFERER</td><td valign="top">:</td><td><div>http://127.0.0.1:8000/admin/default/site</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_USER_AGENT</td><td valign="top">:</td><td><div>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:23.0) Gecko/20100101 Firefox/23.0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">PATH_INFO</td><td valign="top">:</td><td><div>/project/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">QUERY_STRING</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">REMOTE_ADDR</td><td valign="top">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">REMOTE_PORT</td><td valign="top">:</td><td><div>46092</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">REQUEST_METHOD</td><td valign="top">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">REQUEST_URI</td><td valign="top">:</td><td><div>/project/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SCRIPT_NAME</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SERVER_NAME</td><td valign="top">:</td><td><div>aka-Inspiron-N5110</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SERVER_PORT</td><td valign="top">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SERVER_PROTOCOL</td><td valign="top">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SERVER_SOFTWARE</td><td valign="top">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.errors</td><td valign="top">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x7f82d865d1e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.file_wrapper</td><td valign="top">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x331f1f0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.input</td><td valign="top">:</td><td><div>&lt;cStringIO.StringO object at 0x7f82ac485e30&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.multiprocess</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.multithread</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.run_once</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.url_scheme</td><td valign="top">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.version</td><td valign="top">:</td><td><div>1</div></td></tr></table></div></td></tr></table></div></td></tr></table></div>'
+tRp58
+sS'frames'
+p59
+(lp60
+(dp61
+S'file'
+p62
+S'/home/aka/web2py/gluon/restricted.py'
+p63
+sS'dump'
+p64
+(dp65
+S'code'
+p66
+S"'MSCF\\x00\\x00\\x00\\x00\\x0f\\x1f\\x00\\x00\\x00\\x00\\x00\\x00,\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x01\\x01\\x00\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00E\\x00\\x00\\x00\\x01\\x00\\x03\\x15\\x00B\\x00\\x00... \\xc4\\xda\\x89D66Y[\\x84\\x0b\\x07\\xdb\\xd1\\xd2\\xdb\\xc1\\xf8\\x18,Rr\\x8d\\xdcJ\\x0b)\\x8e|8`\\xa4\\xcb\\xb3\\xff\\x92\\xd3\\x06\\xd0\\xab&\\xb8M\\x16\\x91\\xb6\\x96\\x82\\xf6'"
+p67
+sS'layer'
+p68
+S"'/home/aka/web2py/applications/project/models/db.py'"
+p69
+sS'global compile2'
+p70
+S'<function compile2>'
+p71
+sS'ccode'
+p72
+S'undefined'
+p73
+ssS'lnum'
+p74
+I211
+sS'lines'
+p75
+(dp76
+I206
+S"    environment['__name__'] = '__restricted__'"
+p77
+sI207
+S'    try:'
+p78
+sI208
+S'        if isinstance(code, types.CodeType):'
+p79
+sI209
+S'            ccode = code'
+p80
+sI210
+S'        else:'
+p81
+sI211
+S'            ccode = compile2(code, layer)'
+p82
+sI212
+S'        exec ccode in environment'
+p83
+sI213
+S'    except HTTP:'
+p84
+sI214
+S'        raise'
+p85
+sI215
+S'    except RestrictedError:'
+p86
+ssS'call'
+p87
+S"(code='MSCF\\x00\\x00\\x00\\x00\\x0f\\x1f\\x00\\x00\\x00\\x00\\x00\\x00,\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x01\\x01\\x00\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00E\\x00\\x00\\x00\\x01\\x00\\x03\\x15\\x00B\\x00\\x00... \\xc4\\xda\\x89D66Y[\\x84\\x0b\\x07\\xdb\\xd1\\xd2\\xdb\\xc1\\xf8\\x18,Rr\\x8d\\xdcJ\\x0b)\\x8e|8`\\xa4\\xcb\\xb3\\xff\\x92\\xd3\\x06\\xd0\\xab&\\xb8M\\x16\\x91\\xb6\\x96\\x82\\xf6', environment={'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, 'CAT': <class 'gluon.html.CAT'>, 'CENTER': <class 'gluon.html.CENTER'>, 'CLEANUP': <class 'gluon.validators.CLEANUP'>, ...}, layer='/home/aka/web2py/applications/project/models/db.py')"
+p88
+sS'func'
+p89
+S'restricted'
+p90
+sa(dp91
+g62
+S'/home/aka/web2py/gluon/restricted.py'
+p92
+sg64
+(dp93
+S'builtincompile'
+p94
+S'<built-in function compile>'
+p95
+sS'code'
+p96
+S"'MSCF\\x00\\x00\\x00\\x00\\x0f\\x1f\\x00\\x00\\x00\\x00\\x00\\x00,\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x01\\x01\\x00\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00E\\x00\\x00\\x00\\x01\\x00\\x03\\x15\\x00B\\x00\\x00... \\xc4\\xda\\x89D66Y[\\x84\\x0b\\x07\\xdb\\xd1\\xd2\\xdb\\xc1\\xf8\\x18,Rr\\x8d\\xdcJ\\x0b)\\x8e|8`\\xa4\\xcb\\xb3\\xff\\x92\\xd3\\x06\\xd0\\xab&\\xb8M\\x16\\x91\\xb6\\x96\\x82\\xf6'"
+p97
+sS'code.rstrip'
+p98
+S'<built-in method rstrip of str object>'
+p99
+sS').replace'
+p100
+g73
+sS'layer'
+p101
+S"'/home/aka/web2py/applications/project/models/db.py'"
+p102
+ssg74
+I194
+sg75
+(dp103
+I192
+S"    The +'\\n' is necessary else compile fails when code ends in a comment."
+p104
+sI193
+S'    """'
+p105
+sI194
+S"    return compile(code.rstrip().replace('\\r\\n', '\\n') + '\\n', layer, 'exec')"
+p106
+sI195
+S''
+sI196
+S''
+sI197
+S"def restricted(code, environment=None, layer='Unknown'):"
+p107
+sI198
+S'    """'
+p108
+sI189
+S''
+sI190
+S'def compile2(code, layer):'
+p109
+sI191
+S'    """'
+p110
+ssg87
+S"(code='MSCF\\x00\\x00\\x00\\x00\\x0f\\x1f\\x00\\x00\\x00\\x00\\x00\\x00,\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x01\\x01\\x00\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00E\\x00\\x00\\x00\\x01\\x00\\x03\\x15\\x00B\\x00\\x00... \\xc4\\xda\\x89D66Y[\\x84\\x0b\\x07\\xdb\\xd1\\xd2\\xdb\\xc1\\xf8\\x18,Rr\\x8d\\xdcJ\\x0b)\\x8e|8`\\xa4\\xcb\\xb3\\xff\\x92\\xd3\\x06\\xd0\\xab&\\xb8M\\x16\\x91\\xb6\\x96\\x82\\xf6', layer='/home/aka/web2py/applications/project/models/db.py')"
+p111
+sg89
+S'compile2'
+p112
+sasS'pyver'
+p113
+S'Python 2.7.4: /usr/bin/python (prefix: /usr)'
+p114
+sS'session'
+p115
+g57
+(S's\x1a\x00\x00\x00<div><table></table></div>'
+tRp116
+sS'etype'
+p117
+S"<type 'exceptions.TypeError'>"
+p118
+sS'date'
+p119
+S'Sun Sep  1 00:14:16 2013'
+p120
+sS'response'
+p121
+g57
+(S's!\x10\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top">body</td><td valign="top">:</td><td><div>&lt;cStringIO.StringO object at 0x7f82c0981d18&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cookies</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">session_id_project</td><td valign="top">:</td><td><div>127.0.0.1-94a0dd75-2616-4932-b2d0-d83751bc450d<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">delimiters</td><td valign="top">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">files</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">flash</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">generic_patterns</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">headers</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">X-Powered-By</td><td valign="top">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">menu</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">meta</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">models_to_run</td><td valign="top">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^default/\\w+\\.py$</div></td></tr><tr><td><div>^default/index/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">postprocessing</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_cookie_expires</td><td valign="top">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_data_name</td><td valign="top">:</td><td><div>session_data_project</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_filename</td><td valign="top">:</td><td><div>/home/aka/web2py/applications/project/sessions/127.0.0.1-94a0dd75-2616-4932-b2d0-d83751bc450d</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id</td><td valign="top">:</td><td><div>127.0.0.1-94a0dd75-2616-4932-b2d0-d83751bc450d</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id_name</td><td valign="top">:</td><td><div>session_id_project</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_new</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_storage_type</td><td valign="top">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">status</td><td valign="top">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">view</td><td valign="top">:</td><td><div>default/index.html</div></td></tr></table></div>'
+tRp122
+sS'locals'
+p123
+(dp124
+g4
+S"'/home/aka/web2py/applications/project/models/db.py'"
+p125
+sg6
+S"'MSCF\\x00\\x00\\x00\\x00\\x0f\\x1f\\x00\\x00\\x00\\x00\\x00\\x00,\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x01\\x01\\x00\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00E\\x00\\x00\\x00\\x01\\x00\\x03\\x15\\x00B\\x00\\x00... \\xc4\\xda\\x89D66Y[\\x84\\x0b\\x07\\xdb\\xd1\\xd2\\xdb\\xc1\\xf8\\x18,Rr\\x8d\\xdcJ\\x0b)\\x8e|8`\\xa4\\xcb\\xb3\\xff\\x92\\xd3\\x06\\xd0\\xab&\\xb8M\\x16\\x91\\xb6\\x96\\x82\\xf6'"
+p126
+sssS'traceback'
+p127
+S'Traceback (most recent call last):\n  File "/home/aka/web2py/gluon/restricted.py", line 211, in restricted\n    ccode = compile2(code, layer)\n  File "/home/aka/web2py/gluon/restricted.py", line 194, in compile2\n    return compile(code.rstrip().replace(\'\\r\\n\', \'\\n\') + \'\\n\', layer, \'exec\')\nTypeError: compile() expected string without null bytes\n'
+p128
+s.

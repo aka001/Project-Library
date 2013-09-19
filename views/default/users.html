@@ -1,0 +1,61 @@
+{{extend 'layout.html'}}
+<head>
+<link type="text/css" rel="stylesheet" href="{{=URL('static','css/a.css')}}">
+</head>
+<form action="{{=URL('search2')}}">
+<input type="text" name="search" value="search for users"/>
+<input type="submit" value="submit"/>
+</form>
+
+{{if len(lis):}}
+<h4><b>friend requests</b></h4>
+{{for i in lis.keys():}}	
+{{=LI(A(i,_href=URL('first2',args=lis[i])))}}
+<form action="{{=URL('confirm',args=lis[i])}}">
+<input class="confirm" type="submit" value="confirm"/></form>
+<form action="{{=URL('reject',args=lis[i])}}">
+<input class="reject" type="submit" value="reject"/>
+</form>
+<br/>
+</form>
+{{pass}}
+{{pass}}
+{{if db.auth_user[auth.user_id].Photo:}}
+<img src="{{=URL('down',args=db.auth_user[auth.user_id].Photo)}}" width=200px />
+<br />
+{{pass}}
+<h1>{{=db.auth_user[auth.user_id].first_name}}</h1>
+<form action={{=URL('profile')}}>
+<button>Edit Profile</button>
+</form>
+<form action="{{=URL('upload')}}">
+	<button type="submit">Add a Project</button>
+</form>
+{{ if len(shw):}}
+<h3>Friend lists</h3>
+{{for i in shw:}}
+{{=LI(A(shw[i],_href=URL('first2',args=i)))}}<br />
+{{pass}}
+{{pass}}
+{{ if len(grid):}}
+<h2>UPLOADED PROJECTS</h2>
+<table>
+{{for i in grid:}}
+<tr><td>
+	{{=LI(A(i['Name'],_href=URL('dev',args=i['id'])))}}</td>
+<td>	<form action="{{=URL('delete',args=i['id'])}}">
+		<button type="submit">Delete</button>
+	</form></td>
+	</tr>
+{{pass}}
+</table>
+{{pass}}
+{{if len(p_share):}}
+<h2>SHARED PROJECTS</h2>
+<table>
+	<tr><td><h4>ADMIN</h4></td><td><h4>PROJECT_NAME</h4></td></tr>
+{{for i in p_share:}}
+	<tr><td>{{=LI(i)}}</td><td>{{=A(p_share[i][0]['Name'],_href=URL('dev',args=p_share[i][0]['id']))}}</td></tr>
+{{pass}}
+</table>
+{{pass}}

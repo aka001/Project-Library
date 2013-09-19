@@ -1,0 +1,21 @@
+.first{
+position:absolute;
+top:100px;
+ right:50px;
+}
+.first1{
+position:absolute;
+top:100px;
+right:130px;
+}
+.confirm{
+position:relative;
+top:-25px;
+left:70px;
+
+}
+.reject{
+position:relative;
+top:-73px;
+ left:140px;
+}

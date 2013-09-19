@@ -1,0 +1,4 @@
+{{extend 'layout.html'}}
+{{for i in fi:}}
+{{=LI(A(i['Name'],_href=URL('user1',args=i.id)))}}
+{{pass}}

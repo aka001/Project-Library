@@ -1,0 +1,8 @@
+{{ extend 'layout.html'}}
+{{if len(lis)!=0:}}
+{{for i in lis:}}
+	{{=LI(A(i.Name,_href=URL('user1',args=i.id)))}}
+{{pass}}
+{{else:}}
+	<h1>NO RESULTS FOUND</h1>
+{{pass}}

@@ -1,0 +1,103 @@
+{{extend 'layout.html'}}
+<h2><b>{{=name[0]['Name']}}</b></h2>
+<table>
+<tr>
+<td>Category</td>
+<td>{{=proj[0]['category']}}</td>
+</tr>
+<tr>
+<td>Description</td>
+<td>{{=proj[0]['description']}}</td>
+</tr>
+<tr>
+<td>No. of downloads</td>
+<td>{{=proj[0]['count_download']-1}}</td>
+</tr>
+<tr>
+<td>Ratings</td>
+<td>{{=proj[0]['count_rate']}}</td>
+</tr>
+</table>
+<br />
+<table>
+<tr><td>
+<form action="{{=URL('user1',args=proj[0].id)}}">
+<button type="submit">Comments</button><br />
+</form></td>
+</table>
+
+{{if len(cur):}}
+<h3>Modified Versions</h3>
+<table>
+	{{for i in range(0,len(cur)):}}
+	<tr><td>
+{{=A("MODIFIED VERSION",_href=URL('file_show',args=(proj[0].id,cur[i]['vers'])))}} {{=cur[i]['vers']+1}} IS DONE BY <i>{{=db.auth_user[cur[i]['modified_by']].first_name}} </i></td>
+	<td><form action="{{=URL('downm',args=(cur[i]['vers'],proj[0].id))}}">
+	<button type="submit">Download</button>
+	</form></td>
+	</td>
+{{pass}}
+{{pass}}
+</table>
+{{ if len(cur_file):}}
+<table>
+<h3>Current Files</h3>
+{{for i in range(0,len(cur_file)):}}
+<tr>
+{{if cur_file[i]['modified_by']!=None:}}
+<td>
+	{{=cur_file[i]['Name']}}</td> <td>Created by <i>{{=db.auth_user[cur_file[i]['added_by']].first_name}}</i></td>
+	<td>recently modified_by <i>{{=db.auth_user[cur_file[i]['modified_by']].first_name}}</i></td>
+	<td></td><td></td><td></td><td></td><td></td><td></td>
+
+{{else:}}
+<td>
+	{{=cur_file[i]['Name']}}</td> <td>Created by <i>{{=db.auth_user[cur_file[i]['added_by']].first_name}}</i></td>
+	<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+{{pass}}
+<td>
+<form action="{{=URL('delete_file',args=(cur_file[i]['id'],proj[0].id))}}">
+<button type="submit">delete</button>
+</form></td><td>
+<form action="{{=URL('edit_file',args=(cur_file[i]['id'],proj[0].id))}}">
+<button type="submit">edit</button>
+</form></td>
+<td>
+<form action="{{=URL('down',args=cur_file[i]['new_file'])}}">
+	<button type="submit">Download</button>
+</form></td>
+</tr>
+{{pass}}
+{{pass}}
+{{pass}}
+{{pass}}
+</table>
+
+<form action="{{=URL('file_add',args=proj[0].id)}}">
+<button type="submit">Add more files</button>
+</form>
+<form action="{{=URL('modify',args=proj[0].id)}}">
+<button type="submit">Save changes</button>
+</form>
+{{if auth.user_id==proj[0]['created_by']:}}
+<form action="{{=URL('add',args=proj[0].id)}}">
+<button type="submit" value="save" name="save">Add collaborators</button>
+</form>
+{{pass}}
+{{if len(col):}}
+<h2>Collaborators:</h2>
+
+<table>
+{{ for i in range(len(col)):}}
+<tr><td>
+{{=LI(col[i]['collaborator'])}}
+</td>
+<td>
+{{if auth.user_id==proj[0]['created_by']:}}
+<form action="{{=URL('remove',args=(col[i]['id'],proj[0].id))}}">
+<button type="submit">remove</button>
+</form></td>
+{{pass}}
+{{pass}}
+</table>
+{{pass}}

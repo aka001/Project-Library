@@ -1,0 +1,122 @@
+{{extend 'layout.html'}}
+<head>
+<style>
+    td{
+        
+        border-radius:18px;
+    }
+    </style>
+    	<link type="text/css" rel="stylesheet" href="{{=URL('static','css/a.css')}}">
+</head>
+<form action="{{=URL('search')}}">
+	<input class="first1" type="text" name="search" value="search"/>
+		<input class="first" type="submit" value="submit"/>
+</form>
+<form action="{{=URL('upload')}}">
+    <button class="btn btn-primary" type="submit"><i> <b>UPLOAD</b> </i> <i class="icon icon-arrow-up"></i></button>
+</form>
+<table width="80%" border="0">
+<tr><td width="35%">
+{{count=0}}
+<h2>Top Contributors</h2>
+{{for i in d:}}
+	{{if count==10:}}
+		{{break}}
+	{{=A(db.auth_user[i].first_name,_href=URL('first2',args=i))}}<br />
+{{count+=1}}
+{{pass}}
+{{pass}}
+{{count=0}}
+<h2>Most Commented</h2>
+<table width="70%">
+{{for i in co:}}
+	{{if count==5:}}
+		{{break}}
+    <tr ><td style="background-color:lightgreen">
+{{=(A(i['Name'],_href=URL('user1',args=i.id)))}}
+{{count+=1}}
+        </td></tr>
+    <tr><td></td></tr>
+{{pass}}
+{{pass}}
+    </table>
+    </td><td width="5%"></td>
+<td width="35%">
+{{count=0}}
+<h2>Most Rated</h2>
+<table width="75%">
+
+{{for i in rt:}}
+	{{if count==5:}}
+		{{break}}
+<tr><td style="background-color:lightgreen">
+{{=(A(i['Name'],_href=URL('user1',args=i.id)))}}
+{{count+=1}}
+    </td></tr><tr><td></td></tr>
+{{pass}}
+{{pass}}
+    </table>    </td></tr><tr><td width="35%">
+{{count=0}}
+<h2>Most Downloaded</h2>
+<table width="100%">
+{{for i in l:}}
+	{{if count==5:}}
+{{break}}
+    <tr><td style="background-color:lightgreen">
+{{=(A(i['Name'],_href=URL('user1',args=i.id)))}}
+{{count+=1}}
+        </td></tr>
+    <tr><td></td></tr>
+        {{pass}}
+{{pass}}
+    </table>
+    </td>
+    <td width="5%"></td>
+    <td width="35%">
+    <table >
+<h2>Categories</h2>
+<thead>
+	<th width="40%" style="background-color:#dedede"><h4><b>B.tech</b></h4></th>
+	<th  width="40%" style="background-color:#dedede"><h4><b>M.tech</b></h4></th>
+	<th width="40%" style="background-color:#dedede"><h4><b>M.s</b></h4></th>
+</thead>
+
+	<tr><td width="40%">
+		<table>{{for i in cat:}}
+		<tr><td >{{if i['project_type']=='b.tech':}}
+				{{if i['category'] not in r:}}
+					{{=(A(i['category'],_href=URL('category',args=i.id)))}}
+            			{{r.append(i['category'])}}
+        </td></tr>
+	{{pass}}
+{{pass}}
+        {{pass}}
+        </table></td><td width="40%">
+        <table>
+{{o=[]}}
+        {{for i in cat:}}
+		<tr><td >{{if i['project_type']=='m.tech':}}
+			{{if i['category'] not in l:}}
+				{{=(A(i['category'],_href=URL('category',args=i.id)))}}
+			{{o.append(i['category'])}}
+            </td></tr>
+		     {{pass}}
+{{pass}}
+        {{pass}}
+{{m=[]}}
+        </table>
+        </td><td width="40%">
+        <table>
+        {{for i in cat:}}
+		<tr><td width="50%">{{if i['project_type']=='m.s':}}
+{{ if i['category'] not in m:}}
+			{{=(A(i['category'],_href=URL('category',args=i.id)))}}
+{{m.append(i['category'])}}
+            </td></tr>
+		     {{pass}}
+{{pass}}
+        {{pass}}
+        </table>
+        </td></tr>       		
+</table>
+    </td></tr></table>

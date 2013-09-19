@@ -1,0 +1,11 @@
+{{extend 'layout.html'}}
+<h3>INCLUDED FILES</h3>
+{{if len(files):}}
+<table>
+{{for i in range(0,len(files)):}}
+<tr>
+	<td>{{=LI(files[i]['Name'])}}</td> <td>Created_by <i>{{=db.auth_user[files[i]['added_by']].first_name}}</i></td>
+</tr>
+</table>
+{{pass}}
+{{pass}}
